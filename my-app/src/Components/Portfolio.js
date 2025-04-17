@@ -70,7 +70,7 @@ function Portfolio() {
       </div>
 
       <div className="projects">
-        <h2>Projects</h2>
+        <h2>Projects (See details of project by clicking on it)</h2>
         {projectsData.map((project, index) => (
           <div key={index} className="project" onClick={() => toggleProject(index)}>
             <h3>{project.title}</h3>
