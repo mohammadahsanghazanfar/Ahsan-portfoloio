@@ -70,7 +70,8 @@ function Portfolio() {
       </div>
 
       <div className="projects">
-        <h2>Projects <p>(See details of project by clicking on it) </p></h2>
+        <h2 style={{ display: 'inline' }}>Projects </h2>
+        <p className='para'>(See details of project by clicking on title) </p>
         {projectsData.map((project, index) => (
           <div key={index} className="project" onClick={() => toggleProject(index)}>
             <h3>{project.title}</h3>
