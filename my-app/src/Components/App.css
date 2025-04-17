@@ -15,8 +15,8 @@ body {
     object-fit: cover;
   }
   .para{
-    font-size: 1rem; /* Medium font size */
-  font-weight: normal; /* Not bold */
+    font-size: 3rem; /* Medium font size */
+  font-weight: bold; /* Not bold */
   display: inline;
   margin-left: 2%;
   }
