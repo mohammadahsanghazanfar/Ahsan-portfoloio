@@ -1,0 +1,169 @@
+/* Global styles */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background-color 0.4s ease, color 0.4s ease;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+  }
+  
+  
+  .app.dark {
+    background-color: #1e1e2f;
+    color: #f5f5f5;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 5px;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #0056b3;
+  }
+  
+  /* Header */
+  .header {
+    padding: 2rem;
+    text-align: center;
+    background: linear-gradient(135deg, #4b6cb7, #182848);
+    color: white;
+    border-radius: 0 0 20px 20px;
+  }
+  
+  .header button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .app.dark .header button {
+    background-color: #444;
+    color: #f5f5f5;
+  }
+  
+  .header button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Sections */
+  .experience, .projects {
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+    font-size: 2rem;
+    border-bottom: 2px solid currentColor;
+    padding-bottom: 5px;
+    animation: fadeInDown 0.6s ease;
+  }
+  
+  h3 {
+    margin-top: 1.5rem;
+    font-size: 1.3rem;
+    animation: fadeInLeft 0.6s ease;
+  }
+  
+  ul {
+    padding-left: 1.5rem;
+    margin-top: 10px;
+    animation: fadeIn 0.8s ease;
+  }
+  
+  li {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Projects */
+  .project {
+    background-color: #fff;
+    margin: 1.5rem 0;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: slideUp 0.5s ease;
+  }
+  
+  .app.dark .project {
+    background-color: #2a2a3b;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.05);
+  }
+  
+  .project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  }
+  
+  .project-details {
+    margin-top: 1rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid #ccc;
+    animation: fadeIn 0.4s ease;
+  }
+  
+  .project-details a {
+    display: inline-block;
+    margin: 0.5rem 0;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  @keyframes fadeInLeft {
+    from { opacity: 0; transform: translateX(-20px); }
+    to { opacity: 1; transform: translateX(0); }
+  }
+  
+  @keyframes fadeInDown {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  @keyframes slideUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .header, .experience, .projects {
+      padding: 1.5rem;
+    }
+  
+    h1 {
+      font-size: 1.8rem;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+    }
+  
+    .header button {
+      padding: 8px 16px;
+    }
+  }
+  
