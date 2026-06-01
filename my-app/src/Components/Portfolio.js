@@ -33,6 +33,16 @@ const projectsData = [
     ],
     github: 'https://github.com/mohammadahsanghazanfar/movies-hub',
     live: 'https://umt-admin.vercel.app/'
+  },
+  {
+    title: 'LeaveFlow HR Management Platform',
+    description: [
+      'Responsive HR leave-management dashboard (“LeaveFlow”) for small teams, covering employee directory, leave balances, and leave-request workflows.',
+      'Responive role-based experiences (Admin vs Employee): admins manage employees and approve/reject requests with comments; employees submit and track their own requests.'
+
+    ],
+    github: 'https://github.com/mohammadahsanghazanfar/versacore-leaveflow',
+    live: 'https://versacore-hrflow.vercel.app/'
   }
 ];
 
