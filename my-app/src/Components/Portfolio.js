@@ -60,6 +60,15 @@ function Portfolio() {
       </div>
 
       <div className="experience">
+          <h3>Associate Software Engineer ( Dubizzle Labs ) (July 2025 – present)</h3>
+        <ul>
+          <li>Contributing to the development and maintenance of high-scale platforms including OLX Pakistan, Zameen.com, and Dubizzle across the MENA region.</li>
+          <li>Developing scalable frontend features using React.js, JavaScript, and REST APIs.</li>
+          <li>Collaborating with cross-functional teams including QA engineers, designers, and backend developers in Agile/Scrum environments.</li>
+          <li>Debugging production issues, improving application performance, and maintaining reusable UI components.</li>
+          <li>Working with Git, CI/CD workflows, and modern software engineering practices.</li>
+        </ul>
+          
         <h2>Work Experience</h2>
         <h3>Intern, Netsol Technologies (June 2022 – Aug 2022)</h3>
         <ul>
